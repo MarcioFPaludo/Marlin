@@ -243,11 +243,12 @@
   #define MSG_FILAMENT_CHANGE_INIT_2          _UxGT("d'o filamento")
   #define MSG_FILAMENT_CHANGE_INIT_3          _UxGT("cambear")
   #define MSG_FILAMENT_CHANGE_INSERT_3        _UxGT("pa continar...")
-#else // LCD_HEIGHT < 4
+#else 
+  // LCD_HEIGHT < 4
   // Up to 2 lines allowed
   #define MSG_FILAMENT_CHANGE_INIT_2          _UxGT("d'o fil. cambear")
   #define MSG_FILAMENT_CHANGE_INSERT_1        _UxGT("Meta o filamento")
-#endif // LCD_HEIGHT < 4
+#endif
 
 #define MSG_FILAMENT_CHANGE_UNLOAD_1        _UxGT("Aguardando a")
 #define MSG_FILAMENT_CHANGE_UNLOAD_2        _UxGT("expulsar filament")

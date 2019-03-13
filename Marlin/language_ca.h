@@ -253,13 +253,14 @@
   #define MSG_FILAMENT_CHANGE_LOAD_2          _UxGT("de filament")
   #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("Esperant per")
   #define MSG_FILAMENT_CHANGE_RESUME_2        _UxGT("reprendre")
-#else // LCD_HEIGHT < 4
+#else 
+  // LCD_HEIGHT < 4
   #define MSG_FILAMENT_CHANGE_INIT_1          _UxGT("Espereu...")
   #define MSG_FILAMENT_CHANGE_UNLOAD_1        _UxGT("Expulsant...")
   #define MSG_FILAMENT_CHANGE_INSERT_1        _UxGT("Insereix i prem")
   #define MSG_FILAMENT_CHANGE_HEATING_1       _UxGT("Escalfant...")
   #define MSG_FILAMENT_CHANGE_LOAD_1          _UxGT("Carregant...")
   #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("Reprenent...")
-#endif // LCD_HEIGHT < 4
+#endif 
 
 #endif // LANGUAGE_CA_H

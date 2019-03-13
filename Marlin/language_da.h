@@ -243,12 +243,13 @@
   #define MSG_FILAMENT_CHANGE_LOAD_2          _UxGT("filament indtag")
   #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("Vent på at print")
   #define MSG_FILAMENT_CHANGE_RESUME_2        _UxGT("fortsætter")
-#else // LCD_HEIGHT < 4
+#else 
+  // LCD_HEIGHT < 4
   #define MSG_FILAMENT_CHANGE_INIT_1          _UxGT("Vent venligst...")
   #define MSG_FILAMENT_CHANGE_UNLOAD_1        _UxGT("Udskyder...")
   #define MSG_FILAMENT_CHANGE_INSERT_1        _UxGT("Indsæt og klik")
   #define MSG_FILAMENT_CHANGE_LOAD_1          _UxGT("Indtager...")
   #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("Fortsætter...")
-#endif // LCD_HEIGHT < 4
+#endif 
 
 #endif // LANGUAGE_DA_H

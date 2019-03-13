@@ -396,7 +396,8 @@
   #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("Čekejte prosím")
   #define MSG_FILAMENT_CHANGE_RESUME_2        _UxGT("na pokračování")
   #define MSG_FILAMENT_CHANGE_RESUME_3        _UxGT("tisku")
-#else // LCD_HEIGHT < 4
+#else 
+  // LCD_HEIGHT < 4
   // Up to 2 lines allowed
   #define MSG_FILAMENT_CHANGE_INIT_1          _UxGT("Čekejte...")
   #define MSG_FILAMENT_CHANGE_UNLOAD_1        _UxGT("Vysouvání...")
@@ -405,6 +406,6 @@
   #define MSG_FILAMENT_CHANGE_LOAD_1          _UxGT("Zavádění...")
   #define MSG_FILAMENT_CHANGE_PURGE_1         _UxGT("Vytlačování...")
   #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("Pokračování...")
-#endif // LCD_HEIGHT < 4
+#endif 
 
 #endif // LANGUAGE_CZ_UTF_H
